@@ -7,6 +7,7 @@ namespace PrimeiroProjetoC
     {
         static void Main(string[] args)
         {
+            //objetivo do projeto é determinar em qual quadrante se localiza o ponto com as coordenadas X e Y.
             double x, y;
             string[] coordenadas = Console.ReadLine().Split(" ");
             x = double.Parse(coordenadas[0], CultureInfo.InvariantCulture);
