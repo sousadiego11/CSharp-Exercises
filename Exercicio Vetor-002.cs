@@ -12,6 +12,7 @@ namespace Vetores001
             double divisao = 0.0;
             string[] valores = Console.ReadLine().Split(" ");
             int[] numeros = new int[n];
+            //mostrar numeros pares + quantidade dos mesmos;
             for (int i = 0; i<n; i++)
             {
                 numeros[i] = int.Parse(valores[i]);
